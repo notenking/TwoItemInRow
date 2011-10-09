@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+    <drawable name="item_select">#82b600</drawable>
+    <drawable name="item_unselect">#484848</drawable>
+    <drawable name="invite_unpress">#484848</drawable>
+    <drawable name="invite_press">#82b600</drawable>
+    <drawable name="list_right_press">#e7f7c1</drawable>
+    <drawable name="list_app_num_color">#508227</drawable>
+    <drawable name="title_invite_select">#00ffffff</drawable>
+</resources>
+

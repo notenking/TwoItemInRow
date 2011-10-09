@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="40dip"
+	android:background="#888888">
+	<me.two.item.DontPressWithParentLinearLayout
+		android:id="@+id/layout_left"
+		android:layout_width="0dip"
+		android:layout_height="40dip"
+		android:layout_weight="1"
+		android:background="@drawable/item_bg">
+		<TextView
+			android:id="@+id/text_left"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</me.two.item.DontPressWithParentLinearLayout>
+	<View
+		android:id="@+id/line_prog"
+		android:layout_width="1px"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="2dip"
+		android:layout_marginBottom="2dip"
+		android:layout_marginLeft="2dip"
+		android:layout_marginRight="2dip"
+		android:background="#ff0000" />
+	<me.two.item.DontPressWithParentLinearLayout
+		android:id="@+id/layout_right"
+		android:layout_width="0dip"
+		android:layout_height="40dip"
+		android:layout_weight="1"
+		android:background="@drawable/item_bg">
+		<TextView
+			android:id="@+id/text_right"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</me.two.item.DontPressWithParentLinearLayout>
+</LinearLayout>
