@@ -28,7 +28,7 @@ public class TwoItemInOneRowActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		for (int i = 0; i < 6250000; i++) {
-			mStrings[i] = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+			mStrings[i] = "yzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		}
 		myAdapter = new MyListAdapter(this, "");
 
