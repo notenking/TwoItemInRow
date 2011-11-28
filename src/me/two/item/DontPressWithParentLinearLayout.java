@@ -22,6 +22,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 /**
+ * notenking@gmail.com
  * Special class to to allow the parent to be pressed without being pressed itself.
  * This way the line of a tab can be pressed, but the image itself is not.
  */
